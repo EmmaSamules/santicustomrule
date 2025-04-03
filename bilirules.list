@@ -1,14 +1,5 @@
-DOMAIN-SUFFIX,bigfun.cn
-DOMAIN-SUFFIX,mcbbs.net
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,corari.com
-DOMAIN-SUFFIX,biligame.com
-DOMAIN-SUFFIX,biligo.com
-DOMAIN-SUFFIX,api.vc.bilibili.com    # B站动态相关 API
-DOMAIN-SUFFIX,comment.bilibili.com   # B站评论 API
-DOMAIN-SUFFIX,api.bilibili.com       # B站主 API，部分交互需要
-DOMAIN-SUFFIX,biliplus.com
-PROCESS-NAME,com.bilibili.app.blue
-PROCESS-NAME,com.bilibili.comic
-PROCESS-NAME,com.bilibili.comic.intl
+DOMAIN-SUFFIX,api.vc.bilibili.com
+DOMAIN-SUFFIX,vc.bilibili.com
+DOMAIN-SUFFIX,comment.bilibili.com
+DOMAIN-SUFFIX,api.bilibili.com/x/v2/reply/add
+DOMAIN-SUFFIX,message.bilibili.com
