@@ -1,8 +1,12 @@
-DOMAIN,p-bstarstatic.akamaized.net
-DOMAIN,p.bstarstatic.com
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,api.vc.bilibili.com 
+DOMAIN-SUFFIX,vc.bilibili.com  
+DOMAIN-SUFFIX,upos-sz-mirrorcos.bilivideo.com
+DOMAIN-SUFFIX,comment.bilibili.com  
+DOMAIN-SUFFIX,api.bilibili.com     
+DOMAIN-SUFFIX,passport.bilibili.com  
+DOMAIN-SUFFIX,member.bilibili.com   
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
 IP-CIDR,45.43.32.234/32,no-resolve
 IP-CIDR,103.151.150.0/23,no-resolve
 IP-CIDR,119.29.29.29/32,no-resolve
