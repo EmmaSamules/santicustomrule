@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,lanzoui.com
 DOMAIN-SUFFIX,lanzoux.com
 DOMAIN-SUFFIX,lanzouw.com
 DOMAIN-SUFFIX,notability.com
+
 # bilibili
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,biliapi.com
@@ -35,3 +36,13 @@ IP-CIDR,111.206.25.147/32,no-resolve
 IP-CIDR,119.3.238.64/32,no-resolve
 IP-CIDR,134.175.207.130/32,no-resolve
 IP-CIDR,203.107.1.0/24,no-resolve
+
+# 音乐播放和视频域名
+DOMAIN,netease.ugcvideoss.ourdvs.com
+DOMAIN-SUFFIX,163yun.com
+DOMAIN-SUFFIX,hz.netease.com
+DOMAIN-SUFFIX,mam.netease.com
+DOMAIN-SUFFIX,music.126.com
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,music.163.com.163jiasu.com
+DOMAIN-SUFFIX,yun-app.net
