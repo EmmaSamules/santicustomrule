@@ -1,1 +1,14 @@
-
+2025/12/6
+DOMAIN-SUFFIX,api.bilibili.com
+DOMAIN-SUFFIX,passport.bilibili.com
+DOMAIN-SUFFIX,account.bilibili.com
+DOMAIN-SUFFIX,member.bilibili.com
+DOMAIN-SUFFIX,message.bilibili.com
+DOMAIN-SUFFIX,sso.bilibili.com
+DOMAIN-SUFFIX,apmgr.biliapi.net
+DOMAIN-SUFFIX,app.bilibili.com
+DOMAIN-SUFFIX,grpc.biliapi.net
+DOMAIN-SUFFIX,manager.bilibili.com
+IP-CIDR,120.92.108.182/32,no-resolve
+IP-CIDR,120.92.113.99/32,no-resolve
+IP-CIDR,120.92.153.217/32,no-resolve
