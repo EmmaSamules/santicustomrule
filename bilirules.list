@@ -11,3 +11,23 @@ DOMAIN-SUFFIX,manager.bilibili.com
 IP-CIDR,120.92.108.182/32,no-resolve
 IP-CIDR,120.92.113.99/32,no-resolve
 IP-CIDR,120.92.153.217/32,no-resolve
+# B站评论和登录必须走代理的域名
+DOMAIN-SUFFIX,api.bilibili.com
+DOMAIN-SUFFIX,passport.bilibili.com
+DOMAIN-SUFFIX,reply.bilibili.com
+DOMAIN-SUFFIX,sso.bilibili.com
+DOMAIN-SUFFIX,api.vc.bilibili.com
+DOMAIN-SUFFIX,account.bilibili.com
+DOMAIN-SUFFIX,grpc.biliapi.net
+DOMAIN-SUFFIX,apmgr.biliapi.net
+DOMAIN-SUFFIX,app.biliapi.net
+DOMAIN-SUFFIX,interface.bilibili.com
+# 手机APP专用代理域名
+DOMAIN-SUFFIX,m.bilibili.com
+DOMAIN-SUFFIX,app.bilibili.com
+DOMAIN-SUFFIX,danmu.bilibili.com
+DOMAIN-SUFFIX,vc.bilibili.com
+# 评论相关IP段（防止DNS泄漏）
+IP-CIDR,120.92.108.182/32
+IP-CIDR,120.92.113.99/32
+IP-CIDR,120.92.153.217/32
