@@ -39,11 +39,4 @@ IP-CIDR,119.3.238.64/32,no-resolve
 IP-CIDR,134.175.207.130/32,no-resolve
 IP-CIDR,203.107.1.0/24,no-resolve
 
-  # 小黑盒APP - 静态资源直连
-DOMAIN-SUFFIX,static.xiaoheibox.com
-DOMAIN-SUFFIX,img.xiaoheibox.com
-DOMAIN-SUFFIX,cdn.xiaoheibox.com
-DOMAIN-SUFFIX,image.xiaoheibox.com
-DOMAIN-SUFFIX,assets.xiaoheibox.com
-
 
