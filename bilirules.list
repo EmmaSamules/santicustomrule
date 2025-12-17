@@ -11,3 +11,16 @@ DOMAIN-SUFFIX,manager.bilibili.com
 IP-CIDR,120.92.108.182/32,no-resolve
 IP-CIDR,120.92.113.99/32,no-resolve
 IP-CIDR,120.92.153.217/32,no-resolve
+
+  # 小黑盒APP - 评论区和登录走代理
+DOMAIN-KEYWORD,heimist
+DOMAIN-KEYWORD,xiaohei
+DOMAIN-KEYWORD,xiaoheibox
+DOMAIN-SUFFIX,api.xiaoheibox.com
+DOMAIN-SUFFIX,comment.xiaoheibox.com
+DOMAIN-SUFFIX,login.xiaoheibox.com
+DOMAIN-SUFFIX,user.xiaoheibox.com
+DOMAIN-SUFFIX,auth.xiaoheibox.com
+DOMAIN-SUFFIX,account.xiaoheibox.com
+DOMAIN-SUFFIX,oauth.xiaoheibox.com
+  
