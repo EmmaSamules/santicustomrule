@@ -80,18 +80,6 @@ PROCESS-NAME,com.bilibili.comic.intl
 PROCESS-NAME,tv.danmaku.bili
 PROCESS-NAME,tv.danmaku.bilibilihd
 
-# ===== Login =====
-DOMAIN,interface.music.163.com
-
-# ===== Device Register (关键) =====
-DOMAIN,clientlog.music.163.com
-DOMAIN,apm.music.163.com
-
-# ===== Login / Auth (Proxy) =====
-DOMAIN,interface.music.163.com
-DOMAIN-SUFFIX,api.iplay.163.com
-DOMAIN-SUFFIX,mam.netease.com
-DOMAIN-SUFFIX,hz.netease.com
 
 
 
