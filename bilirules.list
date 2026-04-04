@@ -1,14 +1,17 @@
-# ===== B站：只代理登录 / 评论 / 账号 =====
-DOMAIN-SUFFIX,passport.bilibili.com,PROXY
 DOMAIN-SUFFIX,api.bilibili.com,PROXY
 DOMAIN-SUFFIX,api.vc.bilibili.com,PROXY
+DOMAIN-SUFFIX,passport.bilibili.com,PROXY
 DOMAIN-SUFFIX,account.bilibili.com,PROXY
 DOMAIN-SUFFIX,comment.bilibili.com,PROXY
 
-# 国际版（避免地区限制）
-DOMAIN-SUFFIX,biliintl.com,PROXY
-DOMAIN-SUFFIX,biliintl.co,PROXY
-
-# API备用（有些风控会走）
+  # =========================
+  # ✅ 第三层：风控 & 动态接口（关键补漏）
+  # =========================
+DOMAIN-SUFFIX,grpc.biliapi.net,PROXY
 DOMAIN-SUFFIX,bilibiliapi.com,PROXY
 DOMAIN-SUFFIX,bilibiliapi.net,PROXY
+
+  # =========================
+  # ✅ 第四层：精准兜底（只兜 API，不碰 CDN）
+  # =========================
+DOMAIN-KEYWORD,biliapi,PROXY
