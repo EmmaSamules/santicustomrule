@@ -1,60 +1,14 @@
-# B站主域名和API域名
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,bili22.cn
-DOMAIN-SUFFIX,bili2233.cn
-DOMAIN-SUFFIX,bili23.cn
-DOMAIN-SUFFIX,bili33.cn
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,bilibili.cc
-DOMAIN-SUFFIX,bilibili.cn
-DOMAIN-SUFFIX,bilibili.co
-DOMAIN-SUFFIX,bilibiligame.cn
-DOMAIN-SUFFIX,bilibiligame.co
-DOMAIN-SUFFIX,bilibiligame.net
-DOMAIN-SUFFIX,bilibilipay.cn
-DOMAIN-SUFFIX,bilibilipay.com
-DOMAIN-SUFFIX,bilicomics.com
-DOMAIN-SUFFIX,biligame.cn
-DOMAIN-SUFFIX,biligame.co
-DOMAIN-SUFFIX,biligame.com
-DOMAIN-SUFFIX,biligame.net
-DOMAIN-SUFFIX,biligo.com
-DOMAIN-SUFFIX,biliintl.co
-DOMAIN-SUFFIX,biliintl.com
-DOMAIN-SUFFIX,biliplus.com
-DOMAIN-SUFFIX,acg.tv
-DOMAIN-SUFFIX,animetamashi.cn
-DOMAIN-SUFFIX,animetamashi.com
-DOMAIN-SUFFIX,anitama.cn
-DOMAIN-SUFFIX,anitama.net
-DOMAIN-SUFFIX,baka.im
-DOMAIN-SUFFIX,bigfun.cn
-DOMAIN-SUFFIX,bigfunapp.cn
-DOMAIN-SUFFIX,dreamcast.hk
-DOMAIN-SUFFIX,dyhgames.com
-DOMAIN-SUFFIX,im9.com
-DOMAIN-SUFFIX,mcbbs.net
-DOMAIN-SUFFIX,yo9.com
+# ===== B站：只代理登录 / 评论 / 账号 =====
+DOMAIN-SUFFIX,passport.bilibili.com,PROXY
+DOMAIN-SUFFIX,api.bilibili.com,PROXY
+DOMAIN-SUFFIX,api.vc.bilibili.com,PROXY
+DOMAIN-SUFFIX,account.bilibili.com,PROXY
+DOMAIN-SUFFIX,comment.bilibili.com,PROXY
 
-# 其他域名（用于评论和登录服务）
-DOMAIN,112-81-125-43.dhost.00cdn.com
-DOMAIN,113-219-145-1.ksyungslb.com
-DOMAIN,114-236-92-129.ksyungslb.com
-DOMAIN,180-101-74-1.ksyungslb.com
-DOMAIN,218-91-225-1.ksyungslb.com
-DOMAIN,219-155-150-1.ksyungslb.com
-DOMAIN,222-188-6-1.ksyungslb.com
-DOMAIN,36-104-134-1.ksyungslb.com
-DOMAIN,36-25-252-1.ksyungslb.com
+# 国际版（避免地区限制）
+DOMAIN-SUFFIX,biliintl.com,PROXY
+DOMAIN-SUFFIX,biliintl.co,PROXY
 
-
-
-
-
-
-
-
-
-
+# API备用（有些风控会走）
+DOMAIN-SUFFIX,bilibiliapi.com,PROXY
+DOMAIN-SUFFIX,bilibiliapi.net,PROXY
