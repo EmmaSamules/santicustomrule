@@ -70,7 +70,6 @@ IP-CIDR,120.92.113.99/32,no-resolve
 IP-CIDR,120.92.153.217/32,no-resolve
 IP-CIDR,134.175.207.130/32,no-resolve
 IP-CIDR,203.107.1.0/24,no-resolve
-IP-CIDR,211.96.0.0/13,no-resolve
 
 # 进程名称
 PROCESS-NAME,com.bilibili.app.blue
