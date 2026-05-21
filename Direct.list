@@ -14,7 +14,8 @@ DOMAIN-KEYWORD,nanfeng
 DOMAIN-KEYWORD,115cdn
 DOMAIN-SUFFIX,istoreos.com
 DOMAIN-SUFFIX,linkease.com
-
+DOMAIN-SUFFIX,zhenyunpan.com,DIRECT
+DOMAIN-SUFFIX,115.com,DIRECT
 
 
 # 视频CDN域名 - 直连
