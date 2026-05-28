@@ -1,5 +1,5 @@
 #b站
-  ##-------------- IP ---------------
+  ##-------------IP ---------------
 IP-CIDR,106.75.74.76/32,no-resolve
 IP-CIDR,111.206.25.147/32,no-resolve 
 IP-CIDR,119.3.238.64/32,no-resolve  
@@ -8,7 +8,12 @@ IP-CIDR,120.92.113.99/32,no-resolve
 IP-CIDR,120.92.153.217/32,no-resolve    
 IP-CIDR,134.175.207.130/32,no-resolve 
 IP-CIDR,203.107.1.0/24,no-resolve  
-   # ----------- biliapi.net -----------                               
+   # ----------biliapi.net ----------                              
 DOMAIN-SUFFIX,biliapi.net          
-   ##---------- bilibili.com -----------                            
-DOMAIN-SUFFIX,bilibili.com    
+   ##---------bilibili.com ----------                           
+DOMAIN-SUFFIX,bilibili.com
+
+DOMAIN,szshort.weixin.qq.com
+DOMAIN,szextshort.weixin.qq.com
+DOMAIN,szminorshort.weixin.qq.com
+DOMAIN,mp.weixin.qq.com
