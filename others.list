@@ -6,6 +6,16 @@ DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,douban.fm
 DOMAIN-SUFFIX,doubanio.com
 
+#抖音
+## APP-API  （替换上面）
+DOMAIN-SUFFIX,api6-core-lf.amemv.com 
+   # Web-API
+DOMAIN,sso.douyin.com               
+DOMAIN,www.douyin.com                   
+DOMAIN-SUFFIX,snssdk.com                   
+   # 头条
+DOMAIN-SUFFIX,toutiaoapi.com
+
 
 
 
