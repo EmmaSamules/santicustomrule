@@ -1,17 +1,24 @@
-port: 7890
-socks-port: 7891
+mixed-port: 7890
 allow-lan: true
-mode: rule
-log-level: info
-external-controller: ':9090'
+bind-address: "*"
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+log-level: warning
+global-client-fingerprint: chrome
+keep-alive-idle: 600
+keep-alive-interval: 15
+profile:
+  store-selected: true
+  store-fake-ip: true
 dns:
-    enable: true
-    ipv6: false
-    default-nameserver: [223.5.5.5, 223.6.6.6]
-    proxy-server-nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query', 'https://223.5.5.5/dns-query', 'https://223.6.6.6/dns-query', 'tls://dns.alidns.com', 'tls://223.5.5.5:853', 'tls://223.6.6.6:853']
-    enhanced-mode: fake-ip
-    fake-ip-range: 198.18.0.1/16
-    fake-ip-filter: ['*.lan', localhost.ptlogin2.qq.com]
-    use-hosts: true
-    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query', 'https://223.5.5.5/dns-query', 'https://223.6.6.6/dns-query', 'tls://dns.alidns.com', 'tls://223.5.5.5:853', 'tls://223.6.6.6:853']
-    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+  enable: true
+  ipv6: false
+  default-nameserver: [223.5.5.5, 223.6.6.6]
+  proxy-server-nameserver: [https://doh.pub/dns-query, https://dns.alidns.com/dns-query, https://223.5.5.5/dns-query, https://223.6.6.6/dns-query, tls://dns.alidns.com, tls://223.5.5.5:853, tls://223.6.6.6:853]
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ["*.lan", localhost.ptlogin2.qq.com]
+  use-hosts: true
+  nameserver: [https://doh.pub/dns-query, https://dns.alidns.com/dns-query, https://223.5.5.5/dns-query, https://223.6.6.6/dns-query, tls://dns.alidns.com, tls://223.5.5.5:853, tls://223.6.6.6:853]
+  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32]}
