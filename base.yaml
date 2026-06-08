@@ -1,16 +1,9 @@
-mixed-port: 7890
+port: 7890
+socks-port: 7891
 allow-lan: true
-bind-address: "*"
-ipv6: false
-unified-delay: true
-tcp-concurrent: true
+mode: rule
 log-level: info
-global-client-fingerprint: chrome
-keep-alive-idle: 600
-keep-alive-interval: 15
-profile:
-  store-selected: true
-  store-fake-ip: true
+external-controller: ':9090'
 dns:
     enable: true
     ipv6: false
