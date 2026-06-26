@@ -19,4 +19,4 @@ IP-CIDR,101.91.140.124/32,no-resolve
 DOMAIN-SUFFIX,httpdns.bilivideo.com    
 # [HTTPDNS] 阿里 HTTPDNS
 DOMAIN-SUFFIX,httpdns.aliyuncs.com   
-IP-CIDR,203.107.1.0/24
+IP-CIDR,203.107.1.0/24,no-resolve
