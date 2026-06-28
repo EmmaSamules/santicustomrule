@@ -20,3 +20,25 @@ DOMAIN,m.bilibili.com # 移动端网页与分享卡片
 DOMAIN,api.bilibili.tv # 国际版/部分移动端接口
 DOMAIN-KEYWORD,biliapi # 粗暴拦截所有带 biliapi 关键字的接口 (防漏网之鱼)
 
+#拒绝访问
+# [HTTPDNS] HTTPDNS（Bilibili） 
+IP-CIDR,47.101.175.206/32,REJECT,no-resolve
+IP-CIDR,47.100.123.169/32,REJECT,no-resolve
+IP-CIDR,120.46.169.234/32,REJECT,no-resolve
+IP-CIDR,121.36.72.124/32,REJECT,no-resolve 
+# [HTTPDNS] HTTPDNS (移动)    
+IP-CIDR,116.63.10.135/32,REJECT,no-resolve 
+IP-CIDR,122.9.7.134/32,REJECT,no-resolve 
+IP-CIDR,117.185.228.108/32,REJECT,no-resolve
+IP-CIDR,117.144.238.29/32,REJECT,no-resolve
+# [HTTPDNS] HTTPDNS (电信) 
+IP-CIDR,122.9.13.79/32,REJECT,no-resolve 
+IP-CIDR,122.9.15.129/32,REJECT,no-resolve
+IP-CIDR,101.91.140.224/32,REJECT,no-resolve
+IP-CIDR,101.91.140.124/32,REJECT,no-resolve
+# [HTTPDNS] Bilibili    
+DOMAIN-SUFFIX,httpdns.bilivideo.com    
+# [HTTPDNS] 阿里 HTTPDNS
+DOMAIN-SUFFIX,httpdns.aliyuncs.com   
+IP-CIDR,203.107.1.0/24,REJECT,no-resolve
+
