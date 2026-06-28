@@ -1,15 +1,18 @@
 #b站
-  ##-------------IP ---------------
 IP-CIDR,106.75.74.76/32,no-resolve
-IP-CIDR,111.206.25.147/32,no-resolve 
-IP-CIDR,119.3.238.64/32,no-resolve  
-IP-CIDR,120.92.108.182/32,no-resolve 
-IP-CIDR,120.92.113.99/32,no-resolve     
-IP-CIDR,120.92.153.217/32,no-resolve    
-IP-CIDR,134.175.207.130/32,no-resolve 
-IP-CIDR,203.107.1.0/24,no-resolve  
-   # ----------biliapi.net ----------                              
-DOMAIN-SUFFIX,biliapi.net          
-   ##---------bilibili.com ----------                           
-DOMAIN-SUFFIX,bilibili.com
+IP-CIDR,111.206.25.147/32,no-resolve
+IP-CIDR,119.3.238.64/32,no-resolve
+IP-CIDR,120.92.108.182/32,no-resolve
+IP-CIDR,120.92.113.99/32,no-resolve
+IP-CIDR,120.92.153.217/32,no-resolve
+IP-CIDR,134.175.207.130/32,no-resolve
+IP-CIDR,203.107.1.0/24,no-resolve
+# ======= B站 代理部分（修改IP属地与登录） =======
+DOMAIN,passport.bilibili.com
+DOMAIN,api.bilibili.com
+DOMAIN,api.live.bilibili.com
+DOMAIN,api.vc.bilibili.com
+DOMAIN,message.bilibili.com
+DOMAIN,app.bilibili.com
+DOMAIN-SUFFIX,biliapi.net
 
