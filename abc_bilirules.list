@@ -37,8 +37,8 @@ IP-CIDR,122.9.15.129/32,REJECT,no-resolve
 IP-CIDR,101.91.140.224/32,REJECT,no-resolve
 IP-CIDR,101.91.140.124/32,REJECT,no-resolve
 # [HTTPDNS] Bilibili    
-DOMAIN-SUFFIX,httpdns.bilivideo.com    
+DOMAIN-SUFFIX,httpdns.bilivideo.com,REJECT    
 # [HTTPDNS] 阿里 HTTPDNS
-DOMAIN-SUFFIX,httpdns.aliyuncs.com   
+DOMAIN-SUFFIX,httpdns.aliyuncs.com,REJECT    
 IP-CIDR,203.107.1.0/24,REJECT,no-resolve
 
