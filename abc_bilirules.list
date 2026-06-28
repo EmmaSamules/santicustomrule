@@ -16,9 +16,12 @@ DOMAIN,message.bilibili.com
 DOMAIN,app.bilibili.com
 DOMAIN-SUFFIX,biliapi.net
 # ======= 补充：手机端专属 API（加在原有的代理规则中） =======
-DOMAIN,m.bilibili.com # 移动端网页与分享卡片
-DOMAIN,api.bilibili.tv # 国际版/部分移动端接口
-DOMAIN-KEYWORD,biliapi # 粗暴拦截所有带 biliapi 关键字的接口 (防漏网之鱼)
+# 移动端网页与分享卡片
+DOMAIN,m.bilibili.com 
+# 国际版/部分移动端接口
+DOMAIN,api.bilibili.tv 
+# 粗暴拦截所有带 biliapi 关键字的接口 (防漏网之鱼)
+DOMAIN-KEYWORD,biliapi 
 
 #拒绝访问
 # [HTTPDNS] HTTPDNS（Bilibili） 
