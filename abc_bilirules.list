@@ -14,7 +14,6 @@ IP-CIDR,164.52.1.0/24,no-resolve
 # ======= B站 代理部分（修改IP属地与登录） =======
 DOMAIN,passport.bilibili.com
 DOMAIN,api.bilibili.com
-DOMAIN,api.live.bilibili.com
 DOMAIN,message.bilibili.com
 DOMAIN,app.bilibili.com
 DOMAIN-SUFFIX,biliapi.net
