@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,yfcdn.net
 DOMAIN-SUFFIX,bstarstatic.com
 DOMAIN,api.vc.bilibili.com
+DOMAIN,api.live.bilibili.com
 
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,biliimg.com
