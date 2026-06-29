@@ -26,4 +26,12 @@ PROCESS-NAME,com.bilibili.comic.intl
 PROCESS-NAME,tv.danmaku.bili
 PROCESS-NAME,tv.danmaku.bilibilihd
 
+# ======= 补充：手机端专属 API（加在原有的代理规则中） =======
+# 移动端网页与分享卡片
+DOMAIN,m.bilibili.com  
+# 国际版/部分移动端接口
+DOMAIN,api.bilibili.tv  
+# 粗暴拦截所有带 biliapi 关键字的接口 (防漏网之鱼)
+DOMAIN-KEYWORD,biliapi
+
 
