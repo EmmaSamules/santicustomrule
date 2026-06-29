@@ -15,7 +15,6 @@ IP-CIDR,164.52.1.0/24,no-resolve
 DOMAIN,passport.bilibili.com
 DOMAIN,api.bilibili.com
 DOMAIN,api.live.bilibili.com
-DOMAIN,api.vc.bilibili.com
 DOMAIN,message.bilibili.com
 DOMAIN,app.bilibili.com
 DOMAIN-SUFFIX,biliapi.net
