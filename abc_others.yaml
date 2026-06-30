@@ -1,0 +1,10 @@
+#,🇨🇳.<ShowIP>—抖音#修改IP归属地的核心API（副作用：会造成zjcdn.com访问国外服务器）
+DOMAIN-SUFFIX,api6-core-lf.amemv.com
+
+#Web-API
+DOMAIN,sso.douyin.com
+DOMAIN,www.douyin.com
+DOMAIN-SUFFIX,snssdk.com
+
+#头条
+DOMAIN-SUFFIX,toutiaoapi.com
