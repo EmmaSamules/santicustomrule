@@ -11,6 +11,10 @@ IP-CIDR,203.107.1.0/24,no-resolve
 IP-CIDR,103.151.151.0/24,no-resolve
 IP-CIDR,164.52.1.0/24,no-resolve
 
+#抓包发现
+DOMAIN,api.vc.bilibili.com
+
+
 # ======= B站 代理部分（修改IP属地与登录） =======
 DOMAIN,passport.bilibili.com
 DOMAIN,api.bilibili.com
