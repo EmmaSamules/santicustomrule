@@ -25,13 +25,15 @@ DOMAIN-KEYWORD,nanfeng
 DOMAIN-SUFFIX,istoreos.com
 DOMAIN-SUFFIX,linkease.com
 
-
-DOMAIN,api.live.bilibili.com
-  # ======= B站 直连部分（视频CDN、静态图片、调度接口） =======
-  # 核心调度接口，必须直连以获取国内极速CDN
+DOMAIN-SUFFIX,live.bilibili.com
+DOMAIN,www.bilibili.com
+DOMAIN,m.bilibili.com
+DOMAIN,player.bilibili.com
+DOMAIN,data.bilibili.com
+DOMAIN-SUFFIX,szbdyd.com
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
 DOMAIN,web-interface.bilibili.com
 DOMAIN,grpclb.bilibili.com
-  # 视频及静态资源 CDN (涵盖原长规则)
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.net
@@ -44,9 +46,5 @@ DOMAIN-SUFFIX,ourdvsss.com
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,yfcdn.net
 DOMAIN-SUFFIX,bstarstatic.com
-
-
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,biliimg.com
-  # 兜底：B站其余未分类主站域名全部走直连（必须在上面规则的最后）
-DOMAIN-SUFFIX,bilibili.com
