@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,linkease.com
 DOMAIN-SUFFIX,live.bilibili.com
 DOMAIN,www.bilibili.com
 DOMAIN,space.bilibili.com
+DOMAIN,search.bilibili.com
 DOMAIN,m.bilibili.com
 DOMAIN,player.bilibili.com
 DOMAIN,data.bilibili.com
@@ -44,7 +45,6 @@ DOMAIN-SUFFIX,bilicdn3.com
 DOMAIN-SUFFIX,bilicdn4.com
 DOMAIN-SUFFIX,bilicdn5.com
 DOMAIN-SUFFIX,ourdvsss.com
-DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,yfcdn.net
 DOMAIN-SUFFIX,bstarstatic.com
 DOMAIN-SUFFIX,hdslb.com
